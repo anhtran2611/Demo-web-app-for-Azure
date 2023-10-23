@@ -1,0 +1,120 @@
+html {
+    font-family: Arial,Helvetica,sans-serif;
+
+}
+.wraper {}
+
+.header {}
+
+.header__title {
+    background-color: #56a4fe;
+    height: 85px;
+    position: relative;
+}
+
+.header__title__description {
+    align-items: center;
+    padding-top: auto;
+    padding-bottom: auto;
+    top: 31px;
+    padding-left: 20px;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.header__title__user {
+    /* float: right; */
+    position: absolute;
+    width: 400px;
+    height: 35px;
+    right: 0;
+    font-size: 12px;
+    border-bottom-left-radius: 75px;
+    background-color: White;
+}
+
+.header__title__user>h3 {
+    float: right;
+    padding: 10px;
+    margin: 0;
+    font-size: 12px;
+    color: blue;
+}
+
+.header__system {
+    background-color: #56a4fe;
+    width: 25%;
+    height: 22px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-top: 1px;
+    float: right;
+}
+
+.header__system__link {
+    padding-top: 5px;
+    padding: 5px;
+    text-decoration-line: none;
+    color: #fff !important;
+}
+
+.container {}
+
+.container__information{
+    margin-top: 50px;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.container__information--col{
+    padding-right: 40px;
+}
+
+.container__information--row{
+    display: flex;
+}
+
+.container__information--title{
+    width: 200px;
+    color: green;
+    font-weight: 600;
+}
+
+.container__information--semester{
+    width: 150px;
+}
+
+.container__scores{
+    margin: 30px 0;
+    font-size: 14px;
+    border-width: 1px;
+}
+
+.container__scores__header{
+    background-color: #2467ae;
+    text-align: center;
+    height: 30px;
+    color: #fff;
+
+}
+
+.container__scores__row{
+    text-align: center;
+}
+
+
+
+.footer{
+    margin-top: 200px;
+    height: 50px;
+    background-color: #56a4fe;
+}
+
+.footer__description{
+    padding: 15px;
+    color: #fff;
+}
