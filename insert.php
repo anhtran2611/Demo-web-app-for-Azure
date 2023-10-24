@@ -1,5 +1,5 @@
 <?php
-$host = 'baoanhdb.mysql.database.azure.com';
+$host = 'dbutt.mysql.database.azure.com';
 $username = 'baoanhhihi';
 $password = 'Vuchien@123';
 $db_name = 'utt';
