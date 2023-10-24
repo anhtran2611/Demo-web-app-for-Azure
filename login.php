@@ -2,7 +2,7 @@
     session_start();
 
 
-    $host = "yepps.mysql.database.azure.com";
+    $host = "dbutt.mysql.database.azure.com";
     $username = "baoanhhihi";
     $password = "Vuchien@123";
     $database = "utt";
