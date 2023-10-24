@@ -20,7 +20,7 @@ if($stmt = mysqli_prepare($conn, "INSERT INTO account (User, Password, id) VALUE
     mysqli_stmt_bind_param($stmt, 'ssd',$User,$Password,$id);
     mysqli_stmt_execute($stmt);
     printf("Insert: Affected %d rows\n", mysqli_stmt_affected_rows($stmt));
-    myslqi_stmt_close($stmt);
+    mysqli_stmt_close($stmt);
 }
 
 mysqli_close($conn);
